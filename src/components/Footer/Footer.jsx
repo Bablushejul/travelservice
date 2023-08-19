@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={classes.Footer}>
       <div className={classes.form1}>
-        <h1>Free Travel Trips</h1>
+        <h3>Free Travel Trips</h3>
       </div>
       <ContactForm />
       <ContactInfo />
