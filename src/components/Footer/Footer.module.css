@@ -16,7 +16,8 @@
 .forms {
   display: flex;
   justify-content: space-around;
-  margin-left: 1rem;
+  align-items: center;
+  margin-left: 0rem;
 }
 .symbol {
   margin-left: 10rem;
