@@ -1,0 +1,27 @@
+.VacationRentals {
+    width: 100vw;
+    display: flex;
+    background-color: #f5f5f5;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+    
+  }
+
+  .spot {
+    width: 33vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .VacationRentals {
+      width: 100vw;
+      display: flex;
+      background-color: #f5f5f5;
+      overflow: auto;
+      scroll-behavior: smooth;
+    }
+  
+    .spot {
+      width: 33vw;
+    }
+  }

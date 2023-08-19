@@ -1,0 +1,25 @@
+.Destinationss {
+  width: 100vw;
+  background-color: #F5F5F5;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  
+}
+.Image {
+  width: 20vw;
+}
+
+@media screen and (max-width: 600px) {
+  .Destinationss {
+    width: 100vw;
+    background-color: #F5F5F5;
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+  }
+  .Image {
+    width: 20vw;
+  }
+}

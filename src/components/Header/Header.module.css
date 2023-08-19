@@ -1,0 +1,35 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  width: 7vw;
+  /* height: 106px; */
+}
+.list {
+  display: flex;
+  gap: 8%;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (max-width:600px) {
+  .Header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .img {
+    width: 7vw;
+    /* height: 106px; */
+  }
+  .list {
+    display: flex;
+    gap: 8%;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+}

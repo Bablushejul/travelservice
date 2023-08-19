@@ -1,0 +1,36 @@
+.TopServices {
+  width: 95vw;
+  /* height: 1020px; */
+  background-color: #F5F5F5;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  overflow: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+.image {
+  width: 22vw;
+}
+
+@media screen and (max-width: 600px){
+  .TopServices {
+    width: 95vw;
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+  }
+  .image {
+    width: 22vw;
+  }
+}
