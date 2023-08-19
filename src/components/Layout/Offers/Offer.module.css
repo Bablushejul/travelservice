@@ -1,19 +1,20 @@
 .Offers {
   width: 100vw;
-  background-color:#F5F5F5;
+  background-color: #f5f5f5;
   overflow: auto;
   scroll-behavior: smooth;
   display: flex;
-
+}
+.img {
+  width: 33vw;
 }
 
 @media screen and (max-width: 600px) {
   .Offers {
     width: 100vw;
-    background-color:#F5F5F5;
+    background-color: #f5f5f5;
     overflow: auto;
     scroll-behavior: smooth;
     display: flex;
-  
   }
 }

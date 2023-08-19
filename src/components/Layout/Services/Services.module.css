@@ -1,4 +1,21 @@
 .Services {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  background-image: url(../../../assets/Rectangle\ 140.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.service {
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 600px) {
+  .Services {
     width: 100vw;
     height: 100vh;
     background-color: blue;
@@ -9,25 +26,8 @@
     justify-content: center;
   }
 
-   .service { 
-     margin-left: 10vw;
-     margin-top: 10vh;
-   } 
-
-   @media screen and (max-width:600px){
-    .Services {
-      width: 100vw;
-      height: 100vh;
-      background-color: blue;
-      background-image: url(../../../assets/Rectangle\ 140.png);
-      background-size: cover;
-      background-position: center;
-      align-items: center;
-      justify-content: center;
-    }
-  
-     .service { 
-       margin-left: 10vw;
-       margin-top: 10vh;
-     } 
-   }
+  .service {
+    margin-left: 10vw;
+    margin-top: 10vh;
+  }
+}

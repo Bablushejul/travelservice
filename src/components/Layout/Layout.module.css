@@ -5,10 +5,9 @@
     align-items: center;
     flex-wrap: wrap;
 
-    /* gap: 10px; */
   }
  
   .headings {
     text-align: left;
-    align-self: flex-start;
+    
   }
